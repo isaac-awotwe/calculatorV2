@@ -264,11 +264,8 @@ if st.session_state.stage >= 2:
         set_state(2)
 
 if st.session_state.stage >= 3:
-    st.write("Available operations:")
-    st.write('+')
-    st.write('-')
-    st.write('*')
-    st.write('/')
+    st.write("Available operations: +, -, *, /")
+
    
     operation = st.text_input(
         "Pick an operation:",
